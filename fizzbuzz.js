@@ -1,13 +1,28 @@
+// This is the fizzbuzz program written in javascript
+
 var output = [];
 var count = 1;
 
 
+console.log(output);
+
 function fizzBuzz() {
-   x += 1;
-    output.push(x);
+    while (count <= 100) {
+        if (count % 3 === 0 && count % 5 === 0) {
+            output.push("fizzbuzz");
+        } else if (count % 3 === 0) {
+            output.push("fizz");
+        } else if (count % 5 === 0) {
+            output.push("buzz");
+        } else {
+            output.push(count);
+        }
 
 
-    console.log(output);
+    count ++;
+    
+}
+console.log(output);
 }
 
 
