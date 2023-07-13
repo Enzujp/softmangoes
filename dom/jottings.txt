@@ -1,0 +1,3 @@
+document.getElementsBy--- ID, className and TagNAMe
+document.querySelector takes a class or an ID or a Tagname but it requires the symbol for specificity
+eg an id gets a # and a class gets a . notifier
