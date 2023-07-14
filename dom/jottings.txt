@@ -1,3 +1,7 @@
 document.getElementsBy--- ID, className and TagNAMe
 document.querySelector takes a class or an ID or a Tagname but it requires the symbol for specificity
-eg an id gets a # and a class gets a . notifier
+eg an id gets a # and a class doesnt require a selector . tag
+when using the document.getElementsByTagName(), the elements returned are given as lists
+
+when using document.querySelector you require a selector tag when calling things like the class
+
