@@ -5,3 +5,11 @@ when using the document.getElementsByTagName(), the elements returned are given 
 
 when using document.querySelector you require a selector tag when calling things like the class
 
+from dom.html
+document.querySelector("#list a")
+
+this accesses the anchor tag within the list id. The space inbetween is used to denote hierachy.
+
+document.querySelector("item.a ")
+
+this accesses the anchor tag with the class "item"
