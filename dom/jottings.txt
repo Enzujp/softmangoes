@@ -12,4 +12,4 @@ this accesses the anchor tag within the list id. The space inbetween is used to 
 
 document.querySelector("item.a ")
 
-this accesses the anchor tag with the class "item"
+this accesses the anchor tag with the class "item"/
