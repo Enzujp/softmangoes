@@ -1,0 +1,1 @@
+// This is code for a random dice game, the html file would be created and linked in time
