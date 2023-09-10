@@ -16,7 +16,11 @@ var houseKeeper1 = {
     name: 'jenny',
     yearsOfExperience: 6,
     married: false,
-    age: 21
+    age: 21,
+    // if we wanted to add a function that would make our bell boy pick up the suitcase and move it
+    moveSuitcase: function() {
+        console.log("Do you want me to take your suitcase?")
+    }
 }
 
 
@@ -34,9 +38,33 @@ function BellBoy(name, age, hasWorkPermit, languages) {
     this.name = name;
     this.age = age;
     this.hasWorkPermit = hasWorkPermit;
-    this.languages = languages;
+    this.languages = languages; 
 }
 
 // to create an object from this, we would write the code thus:
 
 var bellBoy2 = new BellBoy('Sammy', 19, true, ['english', 'spanish']); //This is how you initialize the object
+
+// for another example, this is a housekeeper function created to keep track of new housekeepers
+
+function HouseKeeper(name, age, yearsOfExperience, color) {
+    this.name = name;
+    this.age = age;
+    this.yearsOfExperience = yearsOfExperience;
+    this.color = color;
+    this.clean = function() {
+        console.log("cleaning in progress!");
+    }
+        
+}
+    // Note that the function isnt added to the list of inputs
+
+var houseKeeper3 = new HouseKeeper('Peter', 23, 4, 'Hispanic');
+console.log(houseKeeper3.clean())
+
+
+const houseKeeper2 = new HouseKeeper('Ada', 21, 1, 'caucasian');
+
+
+//Higher Order functions contain callback functions 
+// callback functions wait for higher order functions to be executed before they occur.
